@@ -1,0 +1,8 @@
+{"id":10,"marca":"esteban","medidas":"777-77-R77","precio":77777,"pathFoto":".\/neumaticosBorrados\/10.esteban.borrado.023449.jpg"}
+{"id":9,"marca":"Juanote","medidas":"181-24-R16","precio":4500,"pathFoto":".\/neumaticosBorrados\/9.Juanote.borrado.023809.jpg"}
+{"id":15,"marca":"FateO","medidas":"195-55-R18","precio":59666,"pathFoto":".\/neumaticosBorrados\/15.FateO.borrado.023824.jpg"}
+{"id":16,"marca":"FateZ","medidas":"195-55-R18","precio":59666,"pathFoto":".\/neumaticosBorrados\/16.FateZ.borrado.033517.jpg"}
+{"id":19,"marca":"Thiago","medidas":"12-34-Y576","precio":20000,"pathFoto":".\/neumaticosBorrados\/19.Thiago.borrado.033548.jpg"}
+{"id":4,"marca":"Pirelli","medidas":"195-65-R15","precio":240500,"pathFoto":".\/neumaticosBorrados\/4.Pirelli.borrado.043639.jpg"}
+{"id":22,"marca":"BridgeStone","medidas":"195-55-R16","precio":15000,"pathFoto":".\/neumaticosBorrados\/22.BridgeStone.borrado.120851.jpg"}
+{"id":25,"marca":"otro","medidas":"00-00-41","precio":0,"pathFoto":".\/neumaticosBorrados\/25.otro.borrado.122153.png"}
