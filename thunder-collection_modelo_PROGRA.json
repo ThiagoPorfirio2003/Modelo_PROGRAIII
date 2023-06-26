@@ -1,0 +1,201 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "modelo_PROGRA",
+    "dateExported": "2023-06-26T01:10:39.018Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "b73b4535-cc30-48e4-8427-f69e757bb5e3",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "Alta_Usuario",
+            "url": "http://localhost/usuarios",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-06-24T22:59:28.502Z",
+            "modified": "2023-06-26T00:52:35.207Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\": \"aether@celestia.teyvat\", \"clave\": \"telar_destino\", \"nombre\":\"aether\",\"apellido\":\"desconocido\", \"perfil\":\"encargado\"}"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "foto",
+                        "value": "c:\\Users\\thiag\\Downloads\\aether.jpg"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "179b696a-bf9e-4841-a78a-2245af9b2b6d",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "ObtenerUsuarios",
+            "url": "http://localhost/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-06-24T23:39:16.841Z",
+            "modified": "2023-06-25T20:30:49.183Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\": \"test@gmail.com\", \"clave\": \"wigeta\"}",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "dda7e94b-257a-4e86-9f93-a861c07b93ef",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "AltaAuto",
+            "url": "http://localhost/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-06-25T19:29:12.170Z",
+            "modified": "2023-06-25T19:41:18.064Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "auto",
+                        "value": "{\"color\":\"azul\", \"marca\":\"Fiat\", \"precio\": 300000, \"modelo\":\"marino\"}"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "898ad26b-331b-44c9-ade2-98e71f13dd30",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "Listado autos",
+            "url": "http://localhost/autos",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-06-25T19:59:24.307Z",
+            "modified": "2023-06-25T19:59:40.457Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1cd568ee-b445-4ba6-813e-66a2adbfd707",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://localhost/login",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-06-25T20:29:41.455Z",
+            "modified": "2023-06-26T00:55:15.609Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "usuario",
+                        "value": "{\"correo\": \"aether@celestia.teyvat\", \"clave\": \"telar_destino\"}"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "810e81cc-1a5e-4762-be49-b2d844832394",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "Verificar Token",
+            "url": "http://localhost/login",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-06-25T21:01:00.917Z",
+            "modified": "2023-06-25T21:11:17.906Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2ODc3Mjc0NzAsImV4cCI6MTY4NzcyNzUwMCwiZGF0YSI6eyJpZCI6OCwiY29ycmVvIjoidGVzdEBnbWFpbC5jb20iLCJub21icmUiOiJ0ZXN0IiwiYXBlbGxpZG8iOiJ2ZWd1ZXRhIiwicGVyZmlsIjoiZW1wbGVhZG8iLCJmb3RvIjoiLlwvZm90b3NcL3Rlc3RAZ21haWwuY29tLmpwZyJ9fQ.O41oXrrgqmC5OuxayZbUyZ8T6jws-QCv-GkWaH3mRD0"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0d8ec636-ba31-449d-855a-f63ac7a7d5d6",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "Borrar auto",
+            "url": "http://localhost",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-06-25T22:03:46.867Z",
+            "modified": "2023-06-26T00:29:48.642Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2ODc3MzkzODEsImV4cCI6MTY4NzczOTQxMSwiZGF0YSI6eyJpZCI6MSwiY29ycmVvIjoicHJvcEBwcm9wLmNvbSIsIm5vbWJyZSI6IlByb3BpZXRhcmlvIiwiYXBlbGxpZG8iOiJQcm9waWV0YXJpbyIsInBlcmZpbCI6InByb3BpZXRhcmlvIiwiZm90byI6Ii5cL2ZvdG9zXC9wcm9wQHByb3AuY29tXzEuanBnIn19.g6KY6W3mWlnJGELHYeYHCEeRG4QDDqTmgGc-pxGGcKM"
+                },
+                {
+                    "name": "id_auto",
+                    "value": "8"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "id_auto",
+                        "value": "8"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "bf0830b2-014b-45b7-b02f-43365d36dd98",
+            "colId": "556453fb-90c9-40c3-b5d0-e80642402690",
+            "containerId": "",
+            "name": "Modificar Auto",
+            "url": "http://localhost",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2023-06-26T00:47:32.401Z",
+            "modified": "2023-06-26T00:55:23.410Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2ODc3NDA5MTUsImV4cCI6MTY4Nzc0MDk0NSwiZGF0YSI6eyJpZCI6OSwiY29ycmVvIjoiYWV0aGVyQGNlbGVzdGlhLnRleXZhdCIsIm5vbWJyZSI6ImFldGhlciIsImFwZWxsaWRvIjoiZGVzY29ub2NpZG8iLCJwZXJmaWwiOiJlbmNhcmdhZG8iLCJmb3RvIjoiLlwvZm90b3NcL2FldGhlckBjZWxlc3RpYS50ZXl2YXQuanBnIn19.HSN4boHi2s7MSa6130hz2ni6TpXhYhVlAmNzTNM0QeE"
+                },
+                {
+                    "name": "auto",
+                    "value": "{\"id\": 3,\"color\":\"lapizlazuli\", \"marca\":\"Hoyoverse\", \"precio\": 123456, \"modelo\":\"fontaine\"}"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
